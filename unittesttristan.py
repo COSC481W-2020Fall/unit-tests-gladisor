@@ -2,8 +2,6 @@ import unittest
 from utils import buildFromCode
 from lor_deckcodes import LoRDeck, CardCodeAndCount
 from utils import get_dataframe
-from pandas.testing import assert_frame_equal
-
 
 class DeckBuilderTests(unittest.TestCase):
 	"""docstring for DeckBuilderTests"""
